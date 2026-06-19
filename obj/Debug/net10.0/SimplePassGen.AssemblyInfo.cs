@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimplePassGen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88b86544384a788e727c5f22db877d3a1dfbc1a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimplePassGen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimplePassGen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
