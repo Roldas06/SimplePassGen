@@ -89,3 +89,4 @@ E:\Projects\SimplePassGen\obj\Debug\net10.0\refint\SimplePassGen.dll
 E:\Projects\SimplePassGen\obj\Debug\net10.0\SimplePassGen.pdb
 E:\Projects\SimplePassGen\obj\Debug\net10.0\SimplePassGen.genruntimeconfig.cache
 E:\Projects\SimplePassGen\obj\Debug\net10.0\ref\SimplePassGen.dll
+E:\Projects\SimplePassGen\obj\Debug\net10.0\SimplePassGen.sourcelink.json
