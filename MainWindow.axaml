@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="SimplePassGen.MainWindow"
+        Title="SimplePassGen"
+        Width="1000"
+        Height="475">
+
+    <StackPanel Margin="20" Spacing="12">
+
+    <TextBlock Text="Password Length"/>
+    <NumericUpDown x:Name="LengthInput" Minimum="4" Maximum="128" Value="16"/>
+
+    <TextBlock Text="Include:"/>
+    <CheckBox x:Name="UppercaseCheck" Content="Uppercase (A-Z)" IsChecked="True"/>
+    <CheckBox x:Name="LowercaseCheck" Content="Lowercase (a-z)" IsChecked="True"/>
+    <CheckBox x:Name="NumbersCheck"   Content="Numbers (0-9)"   IsChecked="True"/>
+    <CheckBox x:Name="SymbolsCheck"   Content="Symbols (!@#$)"  IsChecked="False"/>
+
+    <TextBox  x:Name="PasswordOutput" IsReadOnly="True" PlaceholderText="Click Generate..."/>
+
+    <Button Content="Generate" Click="GenerateButton_Click"/>
+    <Button Content="Copy"     Click="CopyButton_Click"/>
+
+    </StackPanel>
+</Window>
